@@ -1,0 +1,53 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "cmd+r",
+    "command": "code-runner.run"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "-code-runner.run"
+  },
+  {
+    "key": "cmd+k",
+    "command": "workbench.output.action.clearOutput"
+  },
+  {
+    "key": "ctrl+cmd+r",
+    "command": "python.execInTerminal"
+  },
+  {
+    "key": "cmd+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "cmd+m",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "cmd+right",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "cmd+left",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+right",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+left",
+    "command": "workbench.action.previousEditor"
+  },
+  // Toggle between terminal and editor focus
+  {
+    "key":     "ctrl+space",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key":     "ctrl+space",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when":    "terminalFocus"
+  }
+]
